@@ -16,7 +16,8 @@
 
 
 #main-nav .navbar-brand {
-   margin-top: 15px;
+   padding-top: 10px;
+   height: 54px;
 }
 
 .email {
@@ -24,5 +25,9 @@
 }
 
 #contact {
-  padding-bottom:400px;
+  padding-bottom:300px;
+}
+
+#main-nav .navbar-brand {
+  color: white;
 }

@@ -1308,7 +1308,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
         width: 28px;
         height: 4px;
         margin-top: 0;
-        background:#6d6d6d !important;
+        background: white;
     }
 
     #main-nav .navbar-toggle .icon-bar + .icon-bar{
@@ -1325,7 +1325,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     #main-nav .nav a:hover{
         line-height: 42px;
         text-align: center;
-        color: #6d6d6d;
+        color: white;
     }
 
     #main-nav .nav li.active a,
