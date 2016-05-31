@@ -1,4 +1,4 @@
-
+/*
 #home > div {
   background: rgba(63, 114, 125, 0.75) none repeat scroll 0% 0%;
 }
@@ -6,6 +6,7 @@
 #main-nav {
   background: rgba(63, 114, 125, 0.75) none repeat scroll 0% 0%;
 }
+*/
  
 
 
@@ -30,4 +31,8 @@
 
 #main-nav .navbar-brand {
   color: white;
+}
+
+.margin-20 {
+  margin-top:20px;
 }

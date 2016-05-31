@@ -5,7 +5,7 @@
 body{
 	font-family: Raleway, Arial, sans-serif;
     font-size:16px;
-    font-weight:300;
+    font-weight:400;
     color:#6d6d6d;
 	overflow-x:hidden;
 }
@@ -286,6 +286,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 #home{
     color: #fff;
     max-width: 100%;
+    background: url('../images/blue-1316874_1920.jpg') no-repeat center center;
 }
 
 .backstretch img{
@@ -298,7 +299,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     top: 50%;
     width: 100% !important;
     margin-top:-120px;
-    z-index: -1;
+    z-index: 1;
 }
 
 #home p{
@@ -468,6 +469,17 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 /*-----------------------
 --- Portfolio Styles ----
+    background: url('../images/bg-portfolio.jpg') no-repeat center center;
+#portfolio::before {
+    content: ' ';
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    will-change: transform; 
+    z-index: -9999999;
+}
 -------------------------*/
 
 #portfolio{
@@ -483,14 +495,13 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     position: fixed;
     width: 100%;
     height: 100%;
+    background-color: #334959;
     top: 0;
     left: 0;
-    background-color: white;
-    background: url('../images/bg-portfolio.jpg') no-repeat center center;
-    background-size: cover;
     will-change: transform; 
     z-index: -9999999;
 }
+
 .touch #portfolio{
     background:#1F2C37;
 }
@@ -1293,7 +1304,6 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     }
     
     #main-nav{
-        background:#fff;
         box-shadow: 0 0 3px rgba(0,0,0,0.2);
     }
 
