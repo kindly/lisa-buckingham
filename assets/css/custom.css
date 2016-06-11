@@ -61,4 +61,13 @@
 
 .media-object {
   border-radius: 7px;
+  width: 175px;
+  height: 175px;
+}
+
+@media (max-width: 768px) { 
+  .media-object {
+    width: 100px;
+    height: 100px;
+  }
 }
