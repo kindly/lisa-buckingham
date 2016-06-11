@@ -36,3 +36,29 @@
 .margin-20 {
   margin-top:20px;
 }
+
+.media-bordered {
+  border-color: rgb(87, 115, 116);
+  border-width: 1px !important;
+  border-style: solid !important;
+  padding: 12px;
+  padding-bottom: 5px;
+  position: relative;
+  z-index:100;
+  border-radius: 15px;
+}
+
+.media-bordered:hover {
+   background-color: rgba(0, 0, 0, 0.09)
+}
+
+.media-body-left-pad {
+  padding-left: 30px
+}
+.media-body h4, .media-body p{
+  color: white
+}
+
+.media-object {
+  border-radius: 7px;
+}
